@@ -1,0 +1,47 @@
+body {
+  background-color: #e5896d;
+}
+
+h1 {
+  color: #5a0760;
+  background-color: #bd5e8f;
+  width: 1225px;
+  font-family: verdana;
+  font-size: 3rem;
+  font-style: bold;
+  text-align: center;
+  border: 5px solid #bd5e8f;
+}
+
+p {
+  font-family: verdana;
+  color: #5a0760;
+  background-color: #bd5e8f;
+  width: 1225px;
+}
+
+figure {
+  width: 1100px;
+  height: auto;
+  border: 10px solid #5a0760;
+}
+
+figcaption {
+  color: #5a0760;
+  background-color: #bd5e8f;
+  border: 10px solid #bd5e8f;
+  font-family: verdana;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+p img {
+  float: right;
+  max-width: 60%;
+  margin-left: 20px;
+  margin-bottom: 32px;
+  border: 10px solid #5a0760;
+}
