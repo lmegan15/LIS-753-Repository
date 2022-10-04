@@ -16,10 +16,9 @@ h1 {
 
 p {
   font-family: verdana;
-  background-color: #f7820f;
+  background-color: #ffa929;
   color: #4b2208;
   width: 1225px;
-  border: 1px solid #f7820f
 }
 
 figure {
@@ -73,4 +72,21 @@ nav ul li a {
 nav ul li a:hover {
   border-bottom: 3px solid #4b2208;
   padding-bottom: 9px;
+}
+
+.screenreader-text {
+  position: absolute;
+  left: -999px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+}
+
+.screenreader-text:focus {
+  color: black;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  position: static;
+  margin: auto;
 }
