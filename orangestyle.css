@@ -7,7 +7,7 @@ header {
 }
 
 h1 {
-  color: #cf5704;
+  color: #4b2208;
   width: 1225px;
   font-size: 3rem;
   font-style: bold;
@@ -60,7 +60,7 @@ nav ul {
 }
 
 nav ul li a {
-  color: #cf5704;
+  color: #4b2208;
   text-decoration: none;
   padding: 12px;
   display: block;
