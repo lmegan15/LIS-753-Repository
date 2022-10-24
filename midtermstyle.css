@@ -1,0 +1,31 @@
+body {
+  font-family: Verdana;
+}
+
+article {
+  width: 100%;
+  border: 1px solid black;
+}
+
+article p {
+}
+
+header {
+  text-align: center;
+  border: 1px solid black;
+}
+
+header ul {
+  list-style: none;
+  gap: 30px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  border: 1px solid black;
+  text-align: center;
+}
