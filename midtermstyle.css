@@ -1,23 +1,10 @@
 body {
-  font-family: Verdana;
+  background-color: #f4e6dc;
+  font-family: 'Inter Tight', sans-serif;
 }
 
 article {
   width: 100%;
-  border: 1px solid black;
-}
-
-article p {
-}
-
-header {
-  text-align: center;
-  border: 1px solid black;
-}
-
-header ul {
-  list-style: none;
-  gap: 30px;
 }
 
 img {
@@ -25,7 +12,120 @@ img {
   height: auto;
 }
 
-footer {
-  border: 1px solid black;
+header {
+  text-align: center;
+  color: #b82d20;
+  border-top: 3px solid #b82d20;
+  border-bottom: 3px solid #b82d20;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 25px;
+}
+
+#main-content {
+  border: 20px solid #f4e6dc;
+  display: flex;
+}
+
+.hours-header {
+  text-align: center;
+  background-color: #9dad6c;
+  border: 10px solid #9dad6c;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.hours {
+  display: block;
+  border: 3px solid #9dad6c;
+  text-align: center;
+  width: 25%
+}
+
+.hours p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.pick-header {
+  text-align: center;
+  background-color: #9dad6c;
+  border: 10px solid #9dad6c;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.pick {
+  display: block;
+  border-top: 3px solid #9dad6c;
+  border-bottom: 3px solid #9dad6c;
+  text-align: center;
+  width: 50%
+}
+
+.pick p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.store-header {
+  text-align: center;
+  background-color: #9dad6c;
+  border: 10px solid #9dad6c;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.store {
+  display: block;
+  border: 3px solid #9dad6c;
+  text-align: center;
+  width: 25%;
+}
+
+.store p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#footer {
+  background-color:#b82d20;
+  border: 5px solid #b82d20;
+  display: flex;
+  gap: 10vw;
+  font-size: 13px;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.footer-name {
+  text-transform: uppercase;
+}
+
+.footer1 {
+  display: block;
+  width: 30%
+  text-align: center;
+}
+
+.footer2 {
+  display: block;
+  width: 30%
+  text-align: center;
+}
+
+.footer3 {
+  display: block;
+  width: 30%
   text-align: center;
 }
