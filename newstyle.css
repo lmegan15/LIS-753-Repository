@@ -3,6 +3,12 @@ body {
   font-family: 'Inter Tight', sans-serif;
 }
 
+body.dark-mode button {
+  background: #96c457;
+  border: 1px solid #96c457;
+  border-radius: 4px;
+}
+
 .screenreader-text {
   position: absolute;
   left: -999px;
@@ -20,6 +26,10 @@ body {
   margin: auto;
 }
 
+body.dark-mode {
+  background: #010101;
+}
+
 h1#site-title {
   color: #4b2208;
   font-size: 3rem;
@@ -30,12 +40,21 @@ h1#site-title {
   letter-spacing: 1px
 }
 
+body.dark-mode #site-title {
+  color: #f7820f;
+}
+
 nav ul {
   text-align: center;
   list-style: none;
   padding-left: 0;
   border-bottom: 3px solid #cf5704;
   border-top: 3px solid #cf5704;
+}
+
+body.dark-mode nav ul {
+  border-bottom: 3px solid #5e32ba;
+  border-top: 3px solid #5e32ba;
 }
 
 @media all and (min-width: 720px) {
@@ -49,16 +68,32 @@ nav ul {
 nav ul li a {
   color: #4b2208;
   text-decoration: none;
-  padding: 12px;
+  padding: 8px;
   display: block;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: bold;
   letter-spacing: 1px;
 }
 
+body.dark-mode nav ul li a {
+  color: #96c457;
+}
+
+@media all and (min-width: 720px) {
+     nav ul li a {
+       font-size: 13px;
+       padding: 12px;
+     }
+}
+
 nav ul li a:hover {
   border-bottom: 3px solid #4b2208;
+  padding-bottom: 9px;
+}
+
+body.dark-mode nav ul li a:hover {
+  border-bottom: 3px solid #96c457;
   padding-bottom: 9px;
 }
 
@@ -77,6 +112,10 @@ h1#article-title {
   margin-right: auto;
 }
 
+body.dark-mode #article-title {
+  color: #f7820f
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -89,11 +128,20 @@ figure.main-image {
   margin-right: auto;
 }
 
+body.dark-mode figure.main-image {
+  border: 5px solid #96c457;
+}
+
 figcaption {
   color: #4b2208;
   font-style: italic;
   text-align: center;
   border-bottom: 5px solid #f9ca96;
+}
+
+body.dark-mode figcaption {
+  color: #f7820f;
+  border-bottom: 5px solid #010101;
 }
 
 h2.section-header {
@@ -102,6 +150,10 @@ h2.section-header {
   text-align: left;
   margin-left: auto;
   margin-right: auto;
+}
+
+body.dark-mode h2 {
+  color: #5e32ba;
 }
 
 @media all and (min-width: 720px) {
@@ -118,10 +170,18 @@ figure.section-image {
   padding: 5px;
 }
 
+body.dark-mode figure.section-image {
+  border: 5px solid #96c457;
+}
+
 article p {
   color: #4b2208;
   margin-left: auto;
   margin-right: auto;
+}
+
+body.dark-mode article p {
+  color: #f7820f;
 }
 
 p.last-p {
@@ -134,10 +194,23 @@ footer {
   border-top: 5px solid #4b2208;
 }
 
+body.dark-mode footer   {
+  border-top: 5px solid #5e32ba;
+}
+
 footer p {
   color: #4b2208;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   font-style: italic;
+}
+
+body.dark-mode footer nav ul {
+  border-bottom: 3px solid #cf5704;
+  border-top: 3px solid #cf5704;
+}
+
+body.dark-mode footer nav ul li a {
+  color: #010101;
 }
