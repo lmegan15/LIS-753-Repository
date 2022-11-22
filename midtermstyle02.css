@@ -1,0 +1,139 @@
+body {
+  background-color: #f4e6dc;
+  font-family: 'Inter', sans-serif;
+}
+
+article {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: 'Staatliches', cursive;
+  font-size: 110px;
+}
+
+.header {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+}
+
+#main-content {
+  border-right: 20px solid #f4e6dc;
+  border-left: 20px solid #f4e6dc;
+  border-bottom: 20px solid #f4e6dc;
+  display: flex;
+}
+
+.hours-header {
+  text-align: center;
+  background-color: #9dad6c;
+  border: 10px solid #9dad6c;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+}
+
+.hours {
+  display: block;
+  border: 3px solid #9dad6c;
+  text-align: center;
+  width: 25%
+}
+
+.hours p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.pick-header {
+  text-align: center;
+  background-color: #9dad6c;
+  border: 10px solid #9dad6c;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+}
+
+.pick {
+  display: block;
+  border-top: 3px solid #9dad6c;
+  border-bottom: 3px solid #9dad6c;
+  text-align: center;
+  width: 50%
+}
+
+.pick p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.store-header {
+  text-align: center;
+  background-color: #9dad6c;
+  border: 10px solid #9dad6c;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+}
+
+.store {
+  display: block;
+  border: 3px solid #9dad6c;
+  text-align: center;
+  width: 25%;
+}
+
+.store p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#footer {
+  background-color:#b82d20;
+  border: 5px solid #b82d20;
+  display: flex;
+  gap: 10vw;
+  font-size: 13px;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.footer-name {
+  text-transform: uppercase;
+}
+
+.footer1 {
+  display: block;
+  width: 30%
+  text-align: center;
+}
+
+.footer2 {
+  display: block;
+  width: 30%
+  text-align: center;
+}
+
+.footer3 {
+  display: block;
+  width: 30%
+  text-align: center;
+}
